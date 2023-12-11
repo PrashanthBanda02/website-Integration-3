@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container"></div>
+        <h1 class="heading"> My Projects </h1>
+        <p class="para"> these are few of my static website projects taht i jhave developed using HTML,CSS And Bootstrap.</p>
+        <div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="icon" onclick="display('section1')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="icon" onclick="display('sectionnewspage')" />
+            <img src="data:image/jpeg;base64,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" class="icon" onclick="display('sectionmusicpage')" />
+            <img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png" class="icon" onclick="display('sectionfoodorderpage')" />
+
+        </div>
+    </div>
+    <div id="section1">
+        <div class="bg-container1 d-flex flex-column justify-content-end ">
+            <div class="card ">
+                <h1 class=" card-heading">Advanced Technologies </h1>
+                <p class="para1"> Machinery and equipment developed from the application of scintific knowledge</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="button11" onclick="display('sectionhome')"> back </button>
+                    <button class="button12"> Save Draft </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionnewspage">
+        <div class="newspagebg-container d-flex flex-column justify-content-end ">
+            <div class="newspagecard ">
+                <p class=" newspagepara"> NEWS OF THE DAY </p>
+                <h1 class=" newspagecard-heading"> iB Cricket announces world's first Virtual Reality Cricket League </h1>
+                <p class="newspagepara"> Machinery and equipment developed from the application of scintific knowledge</p>
+
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="newspagebutton" onclick="display('sectionhome')"> back </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionmusicpage">
+        <div class="musicpage1bg-container d-flex flex-column">
+            <h1 class="musicpage1mainheading"> Sleep Music </h1>
+            <p class="musicpage1mainpara"> soothing bedtime music to help you fall into a deep and natural slepp </p>
+            <div class="musicpage1card1 d-flex flex-column justify-content-center">
+                <h1 class="musicpage1cardheading"> Night island </h1>
+            </div>
+            <p class="musicpage1cardpara"> Non-stop 8 hour mixes of our most popular sleep audio</p>
+            <button class="musicpage1button" onclick="display('sectionhome')"> Back </button>
+        </div>
+    </div>
+    <div id="sectionfoodorderpage">
+        <div class="foodorderpagebg-container d-flex flex-column justify-content-end">
+            <div class="foodorderpagecard">
+                <h1>Happy Meals</h1>
+                <p>Discover the best foods over the 1,000 restaurants.</p>
+                <button class="foodorderpagebutton" onclick="display('sectionhome')"> Back </button>
+                <button class="foodorderpagebutton"> Order now </button>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

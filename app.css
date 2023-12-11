@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png");
+    height: 40vh;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+
+}
+
+.maincard {
+    height: 50vh;
+    background-size: cover;
+
+}
+
+.icon {
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+}
+
+.heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.para {
+    font-family: "Bree Serif";
+    font-size: 15px;
+    text-align: center;
+    color: #616e7c;
+
+}
+
+.bg-container1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card {
+    text-align: center;
+    background-color: #ffffff;
+    height: 30vh;
+    width: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card-heading {
+    font-family: Bree Serif;
+    font-size: 30px;
+    color: #5752ab;
+}
+
+.para1 {
+    font-family: Roboto;
+    color: #323f4b;
+}
+
+.button11 {
+    margin-right: 5px;
+    text-align: center;
+    height: 35px;
+    width: 100px;
+    color: #171f46;
+    border-radius: 10px;
+}
+
+.button12 {
+    margin-left: 5px;
+    text-align: center;
+    background-color: blue;
+    color: #ffffff;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.newspagebg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.newspagecard {
+    text-align: left;
+    background-color: #ffffff;
+    height: 30vh;
+    width: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.newspagecard-heading {
+    font-family: Roboto;
+    font-size: 30px;
+    color: #323f4b;
+}
+
+.newspagepara {
+    font-family: Roboto;
+    color: #7b8794;
+}
+
+
+
+.newspagebutton {
+    margin-left: 5px;
+    text-align: center;
+    background-color: #323f4b;
+    color: #ffffff;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+musicpage1bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+
+}
+
+.musicpage1card1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
+    height: 40vh;
+    width: 90vw;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.musicpage1mainheading {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-weight: ;
+    font-size: ;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.musicpage1mainpara {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    text-align: center;
+}
+
+.musicpage1cardheading {
+    color: #ffe7bf;
+    font-family: "Bree Serif";
+    font-weight: ;
+    font-size: ;
+    margin-top: 40px;
+}
+
+.musicpage1cardpara {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.musicpage1button {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: #8e97fd;
+
+}
+
+.foodorderpagebg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    height: 100vh;
+    width: cover;
+}
+
+.foodorderpagecard {
+    align-content: center;
+    background-color: #f6c56e;
+    height: 30vh;
+    width: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+
+}
+
+.foodorderpagebutton {
+    font-family: Roboto;
+    text-align: center;
+    background-color: #27b89f;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+}
